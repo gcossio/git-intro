@@ -1,3 +1,7 @@
 La neta no me hago responsable por nada de lo que esta aqui.
 este es un archivo de prueba totalmente.
 esta es prueba de un merge
+
+
+
+este es un cambio temporal el cual sera interumpido para aprender a usar stash
