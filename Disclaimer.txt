@@ -6,3 +6,17 @@ cambio de emergencia
 
 
 este cambio fue por el mendigo stash
+
+archivo de pruebas 2
+
+
+
+Pasos para instalar docker en Kali
+
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+echo 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable' | sudo tee /etc/apt/sources.list.d/docker.list
+sudo apt-get update
+apt-get install docker-ce
+systemctl status docker
+sudo docker run hello-world      ### Este solo para comprobar la instalacion
+sudo usermod -aG docker $USER    # permisos para que docker se ejecute como usuario
